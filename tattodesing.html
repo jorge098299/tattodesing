@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TattoDesign</title>
+    <link rel="stylesheet" href="tattodesing.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>TattoDesign</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Galería</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+            <button id="loginBtn">Iniciar Sesión</button>
+        </div>
+    </header>
+
+    <section class="main-content">
+        <!-- Botones de navegación -->
+        <div class="navigation-buttons">
+            <button onclick="changeContent('Inicio')">Inicio</button>
+            <button onclick="changeContent('Galeria')">Galería</button>
+            <button onclick="changeContent('Servicios')">Servicios</button>
+            <button onclick="changeContent('Contacto')">Contacto</button>
+        </div>
+
+        <!-- Contenedor dinámico para el contenido cambiante -->
+        <div id="dynamicContent">
+            <!-- El contenido inicial, puede ser el de "Inicio" -->
+            <h2>Bienvenido a TattoDesign</h2>
+            <p>Explora nuestra increíble colección de diseños de tatuajes. Encuentra la inspiración para tu próxima obra de arte corporal.</p>
+        </div>
+<section></section>
+
+    <section class="main-content">
+        <h2>Bienvenido a TattoDesign</h2>
+        <p>Explora nuestra increíble colección de diseños de tatuajes. Encuentra la inspiración para tu próxima obra de arte corporal.</p>
+
+        <!-- Botón para abrir/cerrar el formulario de inicio de sesión -->
+        <button id="toggleLoginBtn">Iniciar Sesión</button>
+
+        <!-- Formulario de inicio de sesión (inicialmente oculto) -->
+        <form id="loginForm" class="hidden">
+            <label for="username">Usuario:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="button" id="loginBtn">Iniciar Sesión</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 TattoDesign. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="tattodesingn.js"></script>
+</body>
+</html>
